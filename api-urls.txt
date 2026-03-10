@@ -1,0 +1,8 @@
+OpenAI API URL
+https://api.openai.com/v1
+
+GROQ API URL
+AI_URL=https://api.groq.com/openai/v1
+
+OpenRouter API URL
+https://openrouter.ai/api/v1
