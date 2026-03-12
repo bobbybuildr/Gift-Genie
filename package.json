@@ -1,0 +1,21 @@
+{
+  "name": "gift-genie",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^7.3.1"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dompurify": "^3.3.3",
+    "express": "^5.2.1",
+    "marked": "^17.0.4",
+    "openai": "^6.27.0"
+  }
+}
