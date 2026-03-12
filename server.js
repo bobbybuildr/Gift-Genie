@@ -45,7 +45,7 @@ server.get('/api/gift', async (req, res) => {
   }
 })
 
-server.get('*', (req, res) => {
+server.use((req, res) => {
   res.sendFile(new URL('./dist/index.html', import.meta.url).pathname)
 })
 
