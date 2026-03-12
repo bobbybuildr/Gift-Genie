@@ -12,7 +12,7 @@ async function getGiftSuggestions() {
   responseContainer.innerHTML = `<p>Summoning gift ideas...</p>`
 
   try{
-    const response = await fetch('http://localhost:3001/api/gift', {
+    const response = await fetch('/api/gift', {
       method: "GET",
       headers: {
         "Content-Type": "application/json"
